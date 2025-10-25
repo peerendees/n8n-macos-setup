@@ -1,0 +1,58 @@
+# Sensible Daten - NIEMALS committen!
+*.env
+.env
+.env.*
+**/secrets/
+**/*secret*
+**/*password*
+**/*credentials*
+
+# Backups mit potenziell sensiblen Daten
+backups/database/*.sql
+backups/workflows/*_with_credentials.json
+
+# System-Dateien
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporäre Dateien
+tmp/
+temp/
+*.tmp
+
+# Node modules (falls verwendet)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (falls Scripts verwendet)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Große Dateien
+*.dmg
+*.zip
+*.tar.gz
+*.rar
+
