@@ -416,3 +416,4 @@ Bei Problemen:
 **Zuletzt aktualisiert:** 25. Oktober 2025
 **Getestet auf:** macOS Sonoma 14.x, Apple Silicon M3
 
+

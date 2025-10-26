@@ -489,3 +489,4 @@ docker-compose restart n8n
 **Zuletzt aktualisiert:** 25. Oktober 2025
 **Getestet auf:** n8n v1.116.2, macOS Sonoma
 
+
