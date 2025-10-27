@@ -10,14 +10,14 @@
 
 ## 📖 Überblick
 
-Dieses Repository enthält **Setup & Dokumentation** für n8n auf macOS. Für die **eigentlichen Workflows** siehe: **[n8n-workflows Repository](https://github.com/[DEIN-USERNAME]/n8n-workflows)** 
+Dieses Repository enthält **Setup & Dokumentation** für n8n auf macOS. Für die **eigentlichen Workflows** siehe: **[n8n-workflows Repository](https://github.com/peerendees/n8n-workflows)** 
 
 ### 🎯 Zwei Repositories - Klare Trennung
 
 | Repository | Zweck | Inhalt |
 |------------|-------|--------|
 | **📦 n8n-macos-setup** (dieses) | Setup & Infrastruktur | Installation, Docker Config, Skripte, Dokumentation |
-| **🔧 [n8n-workflows](https://github.com/[DEIN-USERNAME]/n8n-workflows)** | Workflows & Daten | Workflow-Definitionen, Backups, Custom Nodes |
+| **🔧 [n8n-workflows](https://github.com/peerendees/n8n-workflows)** | Workflows & Daten | Workflow-Definitionen, Backups, Custom Nodes |
 
 **Zusammenspiel:**
 1. Mit **n8n-macos-setup** → n8n installieren & konfigurieren
@@ -31,7 +31,7 @@ Dieses Repository enthält **Setup & Dokumentation** für n8n auf macOS. Für di
 
 ```bash
 # 1. Dieses Repository klonen
-git clone https://github.com/[DEIN-USERNAME]/n8n-macos-setup.git
+git clone https://github.com/peerendees/n8n-macos-setup.git
 cd n8n-macos-setup
 
 # 2. Automatisches Setup
@@ -40,7 +40,7 @@ chmod +x assets/scripts/setup-new-mac.sh
 
 # 3. Workflows-Repository klonen
 cd ~
-git clone https://github.com/[DEIN-USERNAME]/n8n-workflows.git
+git clone https://github.com/peerendees/n8n-workflows.git
 
 # 4. Fertig! n8n läuft auf http://localhost:5678
 ```
@@ -180,7 +180,7 @@ Aktueller Status (siehe [SYSTEM_VERSIONEN.md](docs/SYSTEM_VERSIONEN.md)):
 
 | Repository | Zweck | Link |
 |------------|-------|------|
-| **n8n-workflows** | Produktive Workflows | [→ Repository](https://github.com/[DEIN-USERNAME]/n8n-workflows) |
+| **n8n-workflows** | Produktive Workflows | [→ Repository](https://github.com/peerendees/n8n-workflows) |
 | **n8n-macos-setup** | Setup & Infrastruktur | [→ dieses Repository] |
 
 ---
@@ -217,12 +217,12 @@ Siehe [NEUE_INSTALLATION.md - Troubleshooting](docs/setup/NEUE_INSTALLATION.md#t
 1. **Setup (einmalig):**
    ```bash
    # n8n installieren
-   git clone https://github.com/[USERNAME]/n8n-macos-setup.git
+   git clone https://github.com/peerendees/n8n-macos-setup.git
    cd n8n-macos-setup
    ./assets/scripts/setup-new-mac.sh
    
    # Workflows klonen
-   git clone https://github.com/[USERNAME]/n8n-workflows.git ~/n8n-workflows
+   git clone https://github.com/peerendees/n8n-workflows.git ~/n8n-workflows
    ```
 
 2. **Entwicklung (täglich):**
@@ -249,7 +249,7 @@ Siehe [NEUE_INSTALLATION.md - Troubleshooting](docs/setup/NEUE_INSTALLATION.md#t
 ## 📞 Support
 
 - **📖 Dokumentation:** Siehe [`docs/`](docs/) Ordner
-- **🐛 Issues:** [GitHub Issues](https://github.com/[DEIN-USERNAME]/n8n-macos-setup/issues)
+- **🐛 Issues:** [GitHub Issues](https://github.com/peerendees/n8n-macos-setup/issues)
 - **💬 n8n Community:** https://community.n8n.io
 - **📚 OrbStack Docs:** https://docs.orbstack.dev
 
@@ -283,4 +283,4 @@ MIT License - siehe [LICENSE](LICENSE)
 
 ---
 
-**Siehe auch:** [n8n-workflows Repository](https://github.com/[DEIN-USERNAME]/n8n-workflows) für produktive Workflows
+**Siehe auch:** [n8n-workflows Repository](https://github.com/peerendees/n8n-workflows) für produktive Workflows
